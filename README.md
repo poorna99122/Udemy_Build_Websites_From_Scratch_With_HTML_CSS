@@ -1,0 +1,2 @@
+# Udemy_Build_Websites_From_Scratch_With_HTML_CSS
+In this repo I have recorded all the practice from Udemy_Build_Websites_From_Scratch_With_HTML_CSS Course
