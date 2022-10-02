@@ -1,0 +1,21 @@
+<div class="fpx-form-control">
+  <label class="fpx-field-label" *ngIf="label">{{ label }}</label>
+
+  <div class="fpx-field-content">
+    <input
+      appControlpattern="true"
+      [regex]="regex"
+      autocomplete="off"
+      (error)="followKeydown($event)"
+      matInput
+      [formControl]="formControl"
+      [ngClass]="{
+        error: formControl && formControl.invalid && formControl.touched,
+        'input-readonly': formControl.disabled
+      }"
+    />
+  </div>
+  <mat-error *ngIf="formControl && formControl.invalid && formControl.touched">
+    {{ errorCode }}
+  </mat-error>
+</div>

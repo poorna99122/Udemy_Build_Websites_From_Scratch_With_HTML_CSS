@@ -1,0 +1,86 @@
+
+/* 1st --------------------------------------------------------  */
+/* .container {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* align-items : It is used to vertically control items in a container  */
+/* justify-content : It is used to horizontally control items in a container  */
+
+
+
+/* 2nd ---------------------------------------------------------  */
+/* .container {
+    border: 1px solid black;
+    display: flex;
+}
+
+.item { 
+    margin: auto;
+} */
+
+/* margin(auto): It automatically aligns the items in to center  */
+
+
+/* 3rd -----------------------------------------------------------  */
+
+/* 
+.container {
+    border: 1px solid black;
+    display: grid;
+}
+
+.item {
+    align-self: center;
+    justify-self: center;
+} */
+
+/* align-self : It is applied on the grid child that is used to control the alignment  */
+/* justify-self : It is also applied to the grid item that controls the alignment to the row  */
+
+
+/* 4th -----------------------------------------------------------  */
+/* .container {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+} */
+
+/* place-items : It is used to align the elements in horizontal and vetrical directions  */
+
+
+/* 5th -----------------------------------------------------------  */
+/* .container {
+    border: 1px solid black;
+    position: relative;
+} */
+
+/* .item  {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+} */
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: auto;
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}

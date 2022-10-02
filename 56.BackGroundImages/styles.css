@@ -1,0 +1,25 @@
+/* Background Images  */
+.background-example {
+    height: 200px;
+    width: 200px;
+    border: solid 1px black;
+}
+
+#background-1 {
+    /* By default, background images repeat X & Y and positioned top left  */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn223VBAksOb6eqxOVQMNfTitiqFV8sbMSIMW0eiGh&s');
+}
+
+#background-2 {
+    background-color: #a3d;
+}
+
+#background-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb89NAp8zTaeNfiMqHnztp6bmolIlGWeAlyA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#background-4 {
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb89NAp8zTaeNfiMqHnztp6bmolIlGWeAlyA&usqp=CAU') bottom left repeat-x;
+}

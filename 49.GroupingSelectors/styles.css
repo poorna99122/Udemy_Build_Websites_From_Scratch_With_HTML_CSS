@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #4d2d06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.primary-box {
+    background-color: #222;
+    color: #eee;
+   
+}
+
+
+.secondary-box {
+    background-color: #eee;
+    color: #222;
+
+  
+}
+
+
+.inside-box {
+    margin: 20px 0;
+    padding: 10px;
+    background: #94efff;
+    color: #555;
+}
+
+
+/* Descendent Selectors */
+
+
+.primary-box h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.primary-box p em {
+    color: #320bff;
+}
+
+.secondary-box p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-box em {
+    color: #f3efff;
+}
+
+
+
+
+/* Grouping Selector */
+
+
+/* .inside-box h3 {
+    font-size: 20px;
+}
+
+.inside-box p {
+    font-size: 20px;
+} */
+
+
+/* instead of having these two as seperate we can use as follows  */
+.inside-box h3, .inside-box p {
+    font-size: 20px;
+}
+
+.primary-box, .secondary-box {
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+
+
+
